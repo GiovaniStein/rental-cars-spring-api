@@ -19,6 +19,7 @@ import java.io.IOException;
 @RestController
 @RequestMapping("/aluguel")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200")
 public class AluguelRestController {
 
     private final UploadAluguelService uploadAluguelService;

@@ -20,7 +20,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/carros")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
 public class CarrosRestController {
 
     private final ListarCarrosQuery listarCarrosQuery;
